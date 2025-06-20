@@ -12,7 +12,7 @@ A front-end clone of the **Das Grüne** website — known for its clean, nature-
 
 ### 🔹 Features:
 - Nature-themed color palette and typography
-- Modern layout with grid and flexbox
+- Modern layout
 
 ---
 
@@ -26,7 +26,6 @@ A replica of the **Two Good Co** website — focused on minimalist UI, product p
 
 ### 🔹 Features:
 - Clean, minimal design aesthetic
-- Mobile-first responsive structure
 
 ---
 

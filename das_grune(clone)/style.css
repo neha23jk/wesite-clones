@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+main{
+    width:100%;
+    background-color: #D5FF40;
+}
+nav{
+    
+    padding: 40px 80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+
+nav h2{
+    font-size: 25px;
+    font-weight: 525;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(96, 99, 86);
+    text-decoration: none;
+}
+
+section{
+    padding: 40px 70px;
+}
+
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text1 h1{
+    font-size: 180px;
+    font-weight: 900;
+    line-height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: -30px;
+}
+.hero-text1 .video{
+    height: 90px;
+    width: 350px;
+    background-color: black;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683121862832-2c9fe1cf4b79?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    padding: 10px;
+}
+.video .play{
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play i{
+    font-size: 75px;
+}
+section .hero-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero-text2 h1{
+    font-size: 180px;
+    font-weight: 900;
+    line-height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+}
+
+.hero-text2 p{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(96, 99, 86);
+}
+
+.image{
+    margin-top: 150px;
+    height: 700px;
+    margin-left: 5%;
+    width: 90%;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 100px;
+    background-image: url(https://inspgr.id/app/uploads/2023/07/3d-tendril-studio-17.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image .arrow{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: -10%;
+    color:  #D5FF40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(60, 60, 58);
+}
+
+.arrow i{
+    font-size: 180px;
+}
